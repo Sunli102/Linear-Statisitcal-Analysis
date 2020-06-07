@@ -1,7 +1,7 @@
 #################################################
 ### import data
 #################################################
-bank = read.csv('~/GSU/2019 Fall/Linear Stat/Final Project/Dataset/bank-additional/bank-additional-full.csv', header = T, sep = ';')
+bank = read.csv('~/GSU/Dataset/bank-additional/bank-additional-full.csv', header = T, sep = ';')
 str(bank)
 names(bank)
 dim = dim(bank)
